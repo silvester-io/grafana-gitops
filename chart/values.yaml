@@ -13,4 +13,6 @@ grafana:
     - secretName: argocd-secret # do not change, this is provided by Argo CD
       hosts:
         - grafana.pf2e.io
-
+  rbac:
+    pspEnabled: false
+    pspUseAppArmor: false
