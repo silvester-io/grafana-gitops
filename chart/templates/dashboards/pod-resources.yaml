@@ -7,6 +7,7 @@ metadata:
      grafana_dashboard: "1"
 data:
   k8s-dashboard.json: |-
+    {{`
     {
       "annotations": {
         "list": [
@@ -840,3 +841,4 @@ data:
       "uid": "vOw1ki6Gk",
       "version": 6
     }
+    `}}
