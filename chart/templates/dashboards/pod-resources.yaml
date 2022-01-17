@@ -28,7 +28,7 @@ data:
       "gnetId": null,
       "graphTooltip": 0,
       "id": 1,
-      "iteration": 1622480156316,
+      "iteration": 1622482071759,
       "links": [],
       "panels": [
         {
@@ -638,7 +638,7 @@ data:
               "label": null,
               "logBase": 1,
               "max": null,
-              "min": null,
+              "min": "0",
               "show": true
             },
             {
@@ -647,7 +647,7 @@ data:
               "label": null,
               "logBase": 1,
               "max": null,
-              "min": "0",
+              "min": null,
               "show": true
             }
           ],
@@ -711,6 +711,11 @@ data:
                 "value": "monitoring"
               },
               {
+                "selected": false,
+                "text": "minecraft",
+                "value": "minecraft"
+              },
+              {
                 "selected": true,
                 "text": "pathfinder",
                 "value": "pathfinder"
@@ -734,8 +739,8 @@ data:
             "allValue": ".*",
             "current": {
               "selected": true,
-              "text": "pathfinder-official-api-7d954db7d-6twsw",
-              "value": "pathfinder-official-api-7d954db7d-6twsw"
+              "text": "pathfinder-official-api-6c77f5b8cf-pvqgj",
+              "value": "pathfinder-official-api-6c77f5b8cf-pvqgj"
             },
             "datasource": "prometheus",
             "definition": "label_values(kube_pod_info{namespace=\"$namespace\"},pod)",
@@ -753,12 +758,12 @@ data:
                 "value": "$__all"
               },
               {
-                "selected": false,
-                "text": "pathfinder-official-api-7d954db7d-4q5tx",
-                "value": "pathfinder-official-api-7d954db7d-4q5tx"
+                "selected": true,
+                "text": "pathfinder-official-api-6c77f5b8cf-pvqgj",
+                "value": "pathfinder-official-api-6c77f5b8cf-pvqgj"
               },
               {
-                "selected": true,
+                "selected": false,
                 "text": "pathfinder-official-api-7d954db7d-6twsw",
                 "value": "pathfinder-official-api-7d954db7d-6twsw"
               },
@@ -832,13 +837,13 @@ data:
         ]
       },
       "time": {
-        "from": "now-1h",
+        "from": "now-5m",
         "to": "now"
       },
       "timepicker": {},
       "timezone": "",
       "title": "Pods",
       "uid": "vOw1ki6Gk",
-      "version": 6
+      "version": 1
     }
     `}}
