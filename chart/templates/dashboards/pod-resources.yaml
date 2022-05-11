@@ -716,6 +716,11 @@ data:
                 "value": "minecraft"
               },
               {
+                "selected": false,
+                "text": "terraria",
+                "value": "terraria"
+              },
+              {
                 "selected": true,
                 "text": "pathfinder",
                 "value": "pathfinder"
